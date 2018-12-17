@@ -1,0 +1,56 @@
+/* On travaille sur la balise body, donc sur TOUTE la page */
+body
+{
+    background-color: rgb(254,240,222); /* Le fond de la page sera noir */
+    background-image: url("img/tomtom_mini.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top right;
+    
+}
+
+#nom
+{
+	text-align: center;
+}
+
+#titre
+{
+	text-align: center;
+}
+
+#photo
+{
+	text-align: right;
+}
+
+p
+{
+/*     color: blue; */
+    font-size: xx-large;
+/*     text-decoration: underline; */
+/*     text-align: left; */
+    font-weight: bold;
+    
+}
+
+
+
+ul
+{
+	background-color: rgba(43,150,70,0.5);
+	border: 3px blue outset;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px blue;
+	
+}
+
+ul:hover
+{
+	background-color: rgba(96,224,105,0.5)
+}
+
+.imageflottante
+{
+	float: left;
+}
