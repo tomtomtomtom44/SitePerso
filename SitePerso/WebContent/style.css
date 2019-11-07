@@ -3,10 +3,16 @@ body
 {
     background-color: rgb(254,240,222); /* Le fond de la page sera noir */
     background-image: url("img/tomtom_mini.png");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: top right;
+    font-family: 'McLaren', cursiveArial, Verdana, sans-serif;
     
+}
+
+h1, h2
+{
+	color: blue;
 }
 
 #nom
@@ -38,7 +44,7 @@ p
 
 ul
 {
-	background-color: rgba(43,150,70,0.5);
+	background-color: rgba(43,150,70,0.2);
 	border: 3px blue outset;
 	border-radius: 10px;
 	box-shadow: 6px 6px 6px blue;
